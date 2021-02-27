@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Application - Coder's Hridoy</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+    <!-- ===== Coder's Hridoy ===== -->
+    <!-- ===== Don't Copy or edit this code. If you did then your gf/crush/wife will marry Nasir ===== -->
+
+    <!-- ===== Main Menu ==== -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="index.html">Create Note</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+              </ul>
+            </div>
+            <div class="search-form">
+              <form class="d-flex">
+                <input id="searchTxt" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-dark btn-outline-dark text-white" type="submit">Search</button>
+              </form>
+            </div>
+        </div>
+    </nav>
+    <!-- ===== Carousel Slider ===== -->
+    <div id="slider1" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#slider1" data-slide-to="0"></li>
+        <li data-target="#slider1" data-slide-to="1"></li>
+        <li data-target="#slider1" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="my-slider-1">
+            <div class="container">
+              <h2 class="text-center">Create your first note.</h2>
+              <p class="text-center">Sometimes we need to create quick notes. We will help you to create any kind of note. You can also write you all kind of code. You can use your own notes whenever you want.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="my-slider-2">
+            <div class="container">
+              <h2 class="text-center">Easy and simple way</h2>
+              <p class="text-center">Write your notes except html code. Click on the "Add Note" button. Your note is ready. You don't need to save it. Your note will save autometically until you delete your notes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="my-slider-3">
+            <div class="container">
+              <h2 class="text-center">Need any help?</h2>
+              <p class="text-center">If you face any problem to using this application or don't know how to use <a href="https://www.facebook.com/profile.php?id=100007298235929">Click Here.</a> Or you can directly contact with <a href="https://www.facebook.com/profile.php?id=100007298235929">Hridoy Saha.</a> For more information please <a href="https://codershridoy.com/"> Visit Here.</a> Thank You.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Notes -->
+    <div class="container my-4">
+        <h2 class="text-center text-info mb-4">Welcome To Note App</h2>
+        <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-info text-center">Add Your Note</h5>
+              <div class="mb-3">
+                <textarea class="form-control" id="addText" rows="5" placeholder="write anything..."></textarea>
+              </div>
+              <button class="btn btn-info" id="addBtn">Add Note</button>
+            </div>
+        </div>
+        <h2 class="my-3 text-center text-info mb-3">Your Notes</h2>
+        <div id="notes" class="row container-fluid"> </div>
+    </div>
+    <!-- JS FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
